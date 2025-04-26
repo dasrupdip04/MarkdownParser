@@ -2,62 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Markdown Parser</title>
-   
-    
-   <link rel="stylesheet" href="style.css">
+    <title>Vite + React</title>
   </head>
-
   <body>
-    <header class="header">
-      <h1>Markdown Parser</h1>
-    </header>
-    <div class="container">
-      <div class="text-area-container">
-        <div class="text-area-header-container">
-          <h2 class="text-area-header">Markdown Editor</h2>
-          <div class="text-area-btn-container">
-            <button class="download-btn" >
-              Download
-            </button>
-            <button class="clear-btn">Clear</button>
-            <button class="clear-btn" id="copy">Copy</button>
-          </div>
-        </div>
-        <textarea class="text-area" placeholder="
-        Try this
-        # h1
-        ## h2
-        ### h3
-        #### h4
-        ##### h5
-        ###### h6
-
-        **bold text**
-        *italics*
-
-        ## Some Unordered List:
-        - Item 1
-        - Item 2
-        - Item 3 
-          - Sub Item 1
-          - Sub Item 2
-          - Sub Item 3
-        
-        ## Some Ordered List:
-        1. Item 1
-        2. Item 2
-        3. Item 3"></textarea>
-      </div>
-
-      <div class="markdown-area-container">
-        <h2 class="content-header">Preview</h2>
-        <div class="markdown-area"></div>
-     </div>
-
-
-     <script src="script.js"></script>
-   
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
